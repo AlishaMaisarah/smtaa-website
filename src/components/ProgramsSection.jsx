@@ -21,7 +21,7 @@ function ProgramsSection() {
   return (
     <section
       id="program"
-      className="scroll-mt-24 bg-[#f7f3e9] px-6 py-10 lg:px-8"
+      className="scroll-mt-24 bg-[#f7f3e9] px-6 py-16 lg:px-8"
     >
       <div className="mx-auto max-w-7xl">
 
@@ -154,7 +154,7 @@ function ProgramsSection() {
         </div>
 
         {/* Admission note */}
-        <div className="mt-8 flex items-start gap-4 rounded-2xl border border-[#d9bd7d]/50 bg-[#f1ead8] p-5 sm:p-6">
+        {/*<div className="mt-8 flex items-start gap-4 rounded-2xl border border-[#d9bd7d]/50 bg-[#f1ead8] p-5 sm:p-6">
           <BookOpen
             size={23}
             className="mt-0.5 shrink-0 text-[#174936]"
@@ -165,7 +165,7 @@ function ProgramsSection() {
             bantuan pengajian dan syarat terkini, sila hubungi
             pihak SMTAA.
           </p>
-        </div>
+        </div>*/}
 
       </div>
     </section>

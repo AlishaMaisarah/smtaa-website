@@ -90,7 +90,7 @@ export default function TestimonialSection() {
   return (
     <section
         id="testimoni"
-        className="scroll-mt-24 bg-[#f7f3e9] px-6 py-10 lg:px-8"
+        className="scroll-mt-24 bg-[#f7f3e9] px-6 py-16 lg:px-8"
     >
       <div className="mx-auto max-w-7xl">
         {/* Section heading */}

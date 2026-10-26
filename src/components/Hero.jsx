@@ -11,7 +11,7 @@ function Hero() {
       <div className="absolute -right-32 -top-32 h-[500px] w-[500px] rounded-full bg-[#dfe9df] opacity-70" />
       <div className="absolute -bottom-40 -left-40 h-[500px] w-[500px] rounded-full bg-[#eadfc8] opacity-60" />
 
-      <div className="relative mx-auto flex min-h-[calc(100svh-6rem)] max-w-7xl items-center px-6 py-14 lg:px-8 lg:py-16">
+      <div className="relative mx-auto flex min-h-[calc(100svh-6rem)] max-w-7xl items-center px-6 py-16 lg:px-8 lg:py-16">
         <div className="grid w-full items-center gap-12 lg:grid-cols-2 lg:gap-16">
 
           {/* Left: Main introduction */}
