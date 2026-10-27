@@ -57,7 +57,7 @@ export default function ScholarshipSection() {
         </p>
         </div>
 
-        <div className="scholarship-grid">
+        <div className="scholarship-grid mt-12">
           {scholarships.map((item) => (
             <article
               className={`scholarship-card ${

@@ -38,24 +38,30 @@
 }
 
 .scholarship-card {
-  padding: 25px 21px;
+  padding: 15px 21px;
   background: #fffefa;
-  border: 1px solid #e8e0d0;
+  border: 1px solid #c5a66c;
   border-radius: 20px;
   box-shadow: 0 8px 24px rgba(39, 61, 46, 0.04);
   transition:
+    background-color 0.3s ease,
     transform 0.25s ease,
     box-shadow 0.25s ease;
 }
 
 .scholarship-card:hover {
+  background-color: #eee9dc;
   transform: translateY(-5px);
   box-shadow: 0 14px 30px rgba(39, 61, 46, 0.09);
 }
 
 .scholarship-card.featured {
   border-color: #c5a66c;
-  background: #fffaf0;
+  background: #fffefa;
+}
+
+.scholarship-card.featured:hover {
+  background-color: #eee9dc;
 }
 
 .scholarship-card-top {
