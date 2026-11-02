@@ -3,29 +3,25 @@ import { useState } from "react";
 
 const scholarships = [
   {
-    name: "Al Attas",
-    hafazan: "30 juzuk dan syahadah",
-    scholarship: "RM600",
-    contribution: "RM150",
-    featured: true,
-  },
-  {
     name: "Al Amin",
-    hafazan: "25 juzuk ke bawah",
-    scholarship: "RM500",
-    contribution: "RM250",
+    hafazan: "30 juzuk [SYAHADAH]",
+    scholarship: "RM450",
+    contribution: "RM300",
+    bond: "UIC, KTIS, KTEB",
   },
   {
     name: "As Syafie",
     hafazan: "15 juzuk ke bawah",
     scholarship: "RM400",
     contribution: "RM350",
+    bond: "UIC, KTIS, KTEB",
   },
   {
     name: "Mathuridiah",
-    hafazan: "Sila sahkan syarat hafazan",
+    hafazan: "Sekurang-kurangnya 5 juzuk",
     scholarship: "Tiada",
-    contribution: "RM250",
+    contribution: "RM750",
+    bond: "Tiada",
   },
 ];
 
@@ -60,19 +56,9 @@ export default function ScholarshipSection() {
         <div className="scholarship-grid mt-12">
           {scholarships.map((item) => (
             <article
-              className={`scholarship-card ${
-                item.featured ? "featured" : ""
-              }`}
+              className="scholarship-card"
               key={item.name}
             >
-              <div className="scholarship-card-top">
-                <span className="scholarship-icon">✦</span>
-                <span className="scholarship-label">
-                  {item.scholarship === "Tiada"
-                    ? "Bantuan pengajian"
-                    : "Kategori biasiswa"}
-                </span>
-              </div>
 
               <h3>{item.name}</h3>
 
@@ -89,8 +75,13 @@ export default function ScholarshipSection() {
               </div>
 
               <div className="scholarship-info">
-                <span>Sumbangan bulanan dinyatakan</span>
+                <span>Bulanan dinyatakan sendiri</span>
                 <p>{item.contribution}</p>
+              </div>
+
+              <div className="scholarship-info">
+                <span>Bond</span>
+                <p>{item.bond}</p>
               </div>
             </article>
           ))}
@@ -121,17 +112,17 @@ export default function ScholarshipSection() {
 
         {showDetails && (
           <div className="scholarship-extra">
-            <h3>Maklumat sebelum pendaftaran</h3>
+            <h3>Sebelum pendaftaran, sila: </h3>
             <ul>
               <li>
-                Sahkan syarat hafazan bagi setiap kategori.
+                1. Sahkan syarat hafazan bagi setiap kategori.
               </li>
               <li>
-                Dapatkan penjelasan tentang biasiswa dan
+                2. Dapatkan penjelasan tentang biasiswa dan
                 sumbangan bulanan.
               </li>
               <li>
-                Semak syarat ikatan, peperiksaan dan laluan
+                3. Semak syarat ikatan, peperiksaan dan laluan
                 pendidikan bagi kategori yang berkenaan.
               </li>
             </ul>
