@@ -19,7 +19,7 @@ function Hero() {
             <div className="mb-6 inline-flex items-center gap-2 rounded-full border border-[#c9a86a]/50 bg-white/70 px-4 py-2">
               <span className="h-2 w-2 rounded-full bg-[#b08b4f]" />
               <span className="text-xs font-semibold uppercase tracking-[0.16em] text-[#7a6743]">
-                Pendidikan • Al-Quran • Akhlak
+                Akhlak • Ilmu • Amal
               </span>
             </div>
 

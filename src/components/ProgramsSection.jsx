@@ -126,7 +126,7 @@ function ProgramsSection() {
               <div className="mt-8 h-px w-16 bg-[#d9bd7d]" />
 
               <p className="mt-5 text-xs uppercase tracking-[0.2em] text-[#d9bd7d]">
-                Akhlak • Ilmu • Amal
+                AKADEMIK • AL-QURAN • AKHLAK
               </p>
             </div>
 
